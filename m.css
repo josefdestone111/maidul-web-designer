@@ -1,0 +1,139 @@
+*{margin:0;padding:0}
+@import url('https://fonts.googleapis.com/css?family=Anton|Josefin+Slab|Lobster|Open+Sans+Condensed:300|Righteous');
+#wrapper{
+	width:1368px;
+	
+}
+#header{
+	width:1368px;
+	height:320px;
+	background:linear-gradient(to left, #92F8D6,#92D1F8,#92F89D,#EAE00F,#92D1F8,#EC92F8,#5E5AD9 );
+}
+/*font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Josefin Slab', serif;*/
+img{
+	height:200px;
+	width:230px;
+	float:left;
+    margin-left:60px;
+    margin-top:60px;
+}
+h1{
+	font-family: 'Lobster', cursive; 
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-weight:bold;
+	text-align:center;
+	padding-top:60px;
+}
+h2{
+	 text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:#7F7B25;
+	padding-top:10px;
+	text-align:center;
+}
+#nav{
+	background-color:#857CA8;
+	height:60px;
+	padding:5px;
+}
+#nav ul{
+	background-color:white;
+	list-style-type:none;
+}
+#nav ul li{
+	float:left;
+	text-align:center;
+	padding:20px;
+	margin-right:170px;
+	margin-left:65px;
+}
+#nav ul li a{
+	text-decoration:none;
+	color:black;
+	Display:block;
+    font-family:arial;
+	transition:all .8s
+}
+#nav ul li a:hover{
+	background-color:black;
+	color:#fff;
+}
+#img{
+	height:600px;
+	width:1368px;
+    margin:0 auto;
+	background-image:url("img/i.jpg");
+	background-size:1400px 600px;
+	background-color:#857CA8;
+}
+#img p{
+	text-align:center;
+	font-weight:bold;
+	color:#D7E106;
+}
+#wrapper1{
+	width:1368px;
+	height:90px;
+}
+#name{
+	background-color:#EEDDEC;
+	height:220px;
+	width:960px;
+    margin:0 auto;
+    padding:10px
+}
+h3{
+	border:2px solid red;
+	text-align:none;
+}
+#address{
+	background-color:#867F8B;
+	height:300px;
+	width:960px;
+    margin:0 auto;
+	 padding:10px
+}
+#education{
+    background-color:#10F892;
+	height:230px;
+	width:960px;
+    margin:0 auto;
+    padding:10px
+}
+#contact{
+	height:300px;
+	width :700px;
+	background-color:#14DDE0;
+	margin:0 auto;
+	padding:120px
+}
+#contact h1{
+	color:#5B3DAA
+}
+#hire{
+	width:900px;
+	height:350px;
+	background:linear-gradient(to left, #92F8D6,#92D1F8,#92F89D,#EAE00F,#92D1F8,#EC92F8,#5E5AD9 );
+	margin:0 auto;
+	padding:100px
+}
+#hire h1{
+	text-align:center;
+	color:#19070B
+}
+#hire h2{
+	text-align:right;
+	color:#0404B4
+}
+#footer{
+	background-color:#635548;
+	padding:10px;
+	text-align:center
+}
+#footer{
+	color:white;
+}
